@@ -20,24 +20,23 @@ npm start
 ```
 ## Chats
 
+![Chats](https://user-images.githubusercontent.com/95356840/144635250-966dcbee-8b0e-4ab9-b19a-7890a23f8266.png)
 
+## User search
 
-## Note view
+![User search](https://user-images.githubusercontent.com/95356840/144635282-eae68654-5d27-415e-8ed0-64fd14cf14da.png)
 
-![Note view](https://user-images.githubusercontent.com/95356840/144575245-95b5c84d-1ade-4ae9-bedc-4e4d8dabd90c.png)
+## Image view
 
-## Note edit
-![Note edit](https://user-images.githubusercontent.com/95356840/144585036-6bc362b7-8d43-4140-a8a9-def5057e9980.png)
+![Image view](https://user-images.githubusercontent.com/95356840/144635330-3e6d2d60-f1cd-4c4f-abfb-fe7585c005ac.png)
 
-## Note with custom formatting
+## Profile view
 
-![Note with custom formatting](https://user-images.githubusercontent.com/95356840/144575400-f4917983-99e5-43a1-997d-67dad0da15b7.png)
+![Profile view](https://user-images.githubusercontent.com/95356840/144635371-19b4962f-b134-43bb-804f-7942e65d6955.png)
 
 ## Responsive views
 
-<img width=50% src="https://user-images.githubusercontent.com/95356840/144579679-583ecfff-a01b-4d54-9380-da7d13206e14.png" /><img width=50% src="https://user-images.githubusercontent.com/95356840/144586137-97f19b43-9877-49b2-bb4b-7aa907b4630c.png" />
+<img width="30%" src="https://user-images.githubusercontent.com/95356840/144635428-dff5387e-8423-45af-b0ef-95910ab6ce64.png" />
 
-<img width=50% src="https://user-images.githubusercontent.com/95356840/144588166-2c096252-123a-4ecf-a541-ffaa74c56e75.png" />
-  
-<img width=30% src="https://user-images.githubusercontent.com/95356840/144581778-dd162fd1-bf11-43f1-973e-36fc6017ab69.png" />   <img width=30% src="https://user-images.githubusercontent.com/95356840/144586579-b54d7b20-9c54-4367-8753-757eef186cbd.png" />   <img width=30% src="https://user-images.githubusercontent.com/95356840/144586641-66479365-b208-4e0e-88d6-c5b4eda4ccbe.png" />
+<img width="80%" src="https://user-images.githubusercontent.com/95356840/144635420-409a037a-1f36-4155-af02-6d3184c57f96.png" />
 
