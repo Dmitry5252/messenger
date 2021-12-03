@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.App {
+  display: flex;
+}
+
+.categoryWrapper {
+  width: calc(100% - 17rem);
+}
+
+@media screen and (max-width: 800px), (max-height: 500px) {
+  .categoryWrapper {
+    width: 100%;
+  }
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  html {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 3200px) {
+  html {
+    font-size: 32px;
+  }
+}

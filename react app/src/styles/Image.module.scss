@@ -1,0 +1,39 @@
+.imageWrapper {
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+
+  img {
+    max-height: 80vh;
+    max-width: 80vw;
+    cursor: initial;
+  }
+
+  a {
+    position: absolute;
+    height: 100vh;
+    left: 90vw;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+
+    img {
+      width: 5vw;
+      cursor: pointer;
+    }
+  }
+
+  a:hover {
+    background: rgba(0, 0, 0, 0.4);
+  }
+}

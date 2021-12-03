@@ -1,0 +1,75 @@
+.chatInputsWrapper {
+  height: 6.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid #f7f7f7;
+}
+
+.chatInputs {
+  width: 88%;
+  height: 3.3rem;
+  border: 2px solid #efefef;
+  border-radius: 1.8rem;
+  display: flex;
+  align-items: center;
+
+  input {
+    margin-left: 3%;
+    width: 74.5%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+  }
+}
+
+.attach {
+  margin-left: 2.5%;
+
+  img {
+    height: 1rem;
+  }
+}
+
+.attachFile {
+  margin-left: 1.3rem;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  input {
+    display: none;
+  }
+
+  img {
+    height: 1rem;
+  }
+}
+
+.submitButton {
+  width: 5.75rem;
+  height: 2.1rem;
+  margin-left: 1rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #727bfe;
+  color: #ebf3fe;
+  border-radius: 1.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 550;
+  cursor: pointer;
+  font-size: 0.83rem;
+
+  img {
+    height: 0.8rem;
+    margin-left: 0.6rem;
+    margin-top: 0.2rem;
+  }
+}
+
+.submitButton:hover {
+  background-color: #8991fc;
+}

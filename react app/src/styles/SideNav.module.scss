@@ -1,0 +1,75 @@
+.sideNav {
+  height: 100vh;
+  width: 17rem;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainButton {
+  width: 12.5rem;
+  height: 3rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #727bfe;
+  color: #edf4fe;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 11%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3.25rem 0 1.56rem;
+  cursor: pointer;
+
+  img {
+    height: 1.25rem;
+  }
+}
+
+.mainButton:hover {
+  background-color: #8991fc;
+}
+
+.category {
+  height: 3.3rem;
+  display: flex;
+  padding-left: 2.7rem;
+  align-items: center;
+  color: #5f5f5f;
+  font-weight: 550;
+  font-size: 0.83rem;
+  cursor: pointer;
+  border: none;
+  background-color: #f6f6f6;
+
+  img {
+    height: 1rem;
+    margin-right: 1.125rem;
+  }
+}
+
+.categoryActive {
+  border-left: 0.3rem solid #727bfe;
+  color: #727bfe;
+  padding-left: 2.4rem;
+
+  img {
+    filter: invert(39%) sepia(93%) saturate(1843%) hue-rotate(220deg) brightness(109%) contrast(99%);
+  }
+}
+
+.categories {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and(max-width: 800px), (max-height: 500px) {
+  .sideNav {
+    display: none;
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "messengerback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-ws": "^5.0.2",
+    "mongodb": "^4.1.3",
+    "multer": "^1.4.3",
+    "uuid": "^8.3.2",
+    "ws": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/multer": "^1.4.7",
+    "@types/uuid": "^8.3.1",
+    "@types/ws": "^8.2.0",
+    "nodemon": "^2.0.14",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}

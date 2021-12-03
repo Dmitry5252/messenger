@@ -1,0 +1,170 @@
+.chats {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatWrapper {
+  display: flex;
+  height: calc(100vh - 5.4rem);
+}
+
+.chatList {
+  width: 18.75rem;
+  flex-shrink: 0;
+  border-right: 1px solid #f3f3f5;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.chatListInner {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.chatCard {
+  height: 5.4rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f8f8f8;
+  cursor: pointer;
+
+  img {
+    height: 2.5rem;
+    width: 2.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 1.375rem;
+  }
+}
+
+.chatCardActive {
+  border-left: 3px solid #767bf0;
+  background-color: #fcfcfe;
+
+  img {
+    margin-left: 1.1875rem;
+  }
+}
+
+.chatPreview {
+  margin-left: 0.5rem;
+  text-align: left;
+  width: 12.2rem;
+}
+
+.username {
+  font-weight: 600;
+}
+
+.chatTextPreview {
+  color: #9e9e9e;
+  font-size: 0.8rem;
+}
+
+.date {
+  height: 2.375rem;
+  font-size: 0.8rem;
+  color: #9e9e9e;
+  margin-right: 0.81rem;
+}
+
+.mobileNewChat {
+  display: none;
+}
+
+.chat {
+  width: 100%;
+}
+
+.chatHeader {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #f7f7f7;
+  font-weight: 600;
+
+  .active {
+    color: #616161;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.18rem solid #616161;
+  }
+
+  img {
+    height: 2.5rem;
+    width: 2.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 5%;
+    cursor: pointer;
+  }
+
+  button {
+    border: none;
+    background: none;
+    color: #9c9c9c;
+    font-size: 1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 550;
+  }
+}
+
+.chatHeaderUsername {
+  cursor: pointer;
+}
+
+.leftSpace {
+  width: 2.5rem;
+  margin-left: 5%;
+}
+
+@media screen and(max-width:600px), (max-height: 500px) {
+  .chatWrapper {
+    height: calc(100vh - 4rem);
+  }
+  .chatPreview {
+    display: none;
+  }
+  .date {
+    display: none;
+  }
+  .chatList {
+    width: 3rem;
+  }
+
+  .chatCard img {
+    margin-left: 0.2rem;
+  }
+
+  .chatCardActive img {
+    margin-left: 0.0125rem;
+  }
+
+  .chatListInner::-webkit-scrollbar {
+    display: none;
+  }
+
+  .chatListInner {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .mobileNewChat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: none;
+    border: none;
+    background-color: #727bfe;
+    height: 1rem;
+    cursor: pointer;
+
+    img {
+      height: 0.7rem;
+    }
+  }
+}
