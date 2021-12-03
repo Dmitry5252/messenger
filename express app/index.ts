@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import WebSocket from "ws";
-const port = 4001;
+const port = 4000;
 import http from "http";
 
 const app = express();
