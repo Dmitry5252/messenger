@@ -44,18 +44,20 @@ const ChatInputs = () => {
     <div className={style.chatInputsWrapper}>
       <form onSubmit={sendMessage} className={style.chatInputs}>
         <input value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Write a message" />
-        <button type="button" onClick={() => fileUpload.current?.click()} className={style.attachFile}>
-          <img alt="Attach" src={attachImage} />
-          <input ref={fileUpload} onChange={fileSend} type="file" className={style.fileUpload}></input>
-        </button>
-        <button type="button" onClick={() => imageUpload.current?.click()} className={style.attachFile}>
-          <img alt="Attach file" src={attachFileImage} />
-          <input accept="image/*" ref={imageUpload} onChange={imageSend} type="file" className={style.fileUpload}></input>
-        </button>
-        <button className={style.submitButton} type="submit">
-          Send
-          <img alt="Send" src={sendImage} />
-        </button>
+        <div className={style.chatInputsButtons}>
+          <button type="button" onClick={() => fileUpload.current?.click()} className={style.attachFile}>
+            <img alt="Attach" src={attachImage} />
+            <input ref={fileUpload} onChange={fileSend} type="file" className={style.fileUpload}></input>
+          </button>
+          <button type="button" onClick={() => imageUpload.current?.click()} className={style.attachFile}>
+            <img alt="Attach file" src={attachFileImage} />
+            <input accept="image/*" ref={imageUpload} onChange={imageSend} type="file" className={style.fileUpload}></input>
+          </button>
+          <button className={style.submitButton} type="submit">
+            Send
+            <img alt="Send" src={sendImage} />
+          </button>
+        </div>
       </form>
     </div>
   );

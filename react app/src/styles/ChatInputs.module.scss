@@ -13,26 +13,26 @@
   border-radius: 1.8rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   input {
     margin-left: 3%;
-    width: 74.5%;
+    width: 100%;
     border: none;
     outline: none;
     font-size: 1rem;
   }
 }
 
-.attach {
-  margin-left: 2.5%;
-
-  img {
-    height: 1rem;
-  }
+.chatInputsButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.2rem;
+  margin-right: 0.5rem;
 }
 
 .attachFile {
-  margin-left: 1.3rem;
+  margin-right: 1rem;
   padding: 0;
   background: none;
   border: none;
@@ -50,7 +50,6 @@
 .submitButton {
   width: 5.75rem;
   height: 2.1rem;
-  margin-left: 1rem;
   border: none;
   display: flex;
   justify-content: center;
